@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--CSS Boostrap--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./ASSETS/css/style.css">
+</head>
+
+<body>
+<section>
+    <header class="encabezado">
+        <nav>
+            <div class="logo"> <!--el div es el que contiene la imagen-->
+                <a href="#home">
+                <img src="./ASSETS/img/LOGO/om_logo.png" alt="Logo Centro Holístico">
+            </a>
+            </div>
+                <ul class="nav-links">
+                <li><a href="#about">Quienes somos</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#menu">Menú</a></li>
+            </ul>
+            
+            <a href="" class="btn"><button>Contactanos</button></a>
+        </nav>
+    </header>
+</section>
+    
+<main class="hero-home">
+    <div class="hero-text">
+        <h1>Reconecta con tu alma y cambia tu vida.</h1>
+        <br>
+    </div>
+
+<section id="mensaje">
+    <div class="row">
+        <div class="card" style="width: 22rem;">
+            <img src="./ASSETS/img/espiritualidad.jpg" class="card-img-top" alt="Muestra de terapias alternativas">
+            
+        </div>
+        
+        <div class="col"> <!--le estoy diciendo que en esta tarjeta puede preguntar por el curso de su elección-->
+            <div class="card_custom">
+                <div class="card_custom_header">
+                    <h3 class="card_custom_title">Déjanos saber en qué curso estás interesado y te enviaremos más información</h3>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribe aquí tu mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    <p>Comienza hoy a conectar con tu alma a través de nuestros cursos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+
+<section id="about">
+    <div class="hero-text">
+        <h2>Quienes Somos</h2>
+        <p>Sumérgete en un viaje de autodescubrimiento en nuestro centro holístico. Te proporcionamos las herramientas necesarias para conectar con tu ser interior y alcanzar un equilibrio perfecto entre cuerpo, mente y espíritu. ¡Transforma tu vida hoy mismo!</p>
+        <br>
+    </div>
+</section>
+
+<section>
+
+    <h3 id="experiencias">Viva la Experiencia del Centro Holístico Nirvana</h3>
+    <div class="experiencias">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./ASSETS/img/crystal-healing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Cristaloterapia</h5>
+                    <p>Libere y renueve su energía con Cristales Maestros.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="./ASSETS/img/yoga-.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Yoga</h5>
+                    <p>Todo para practicar Yoga en familia.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./ASSETS/img/singing-bowl-235269_1280.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Terapia con cuencos</h5>
+                    <p>Aproveche las terapias con cuencos tibetanos.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+</section> <!--Estas clases no existen en CSS, porque las estoy trayendo directamente de Boostrap-->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+</main>
+<br>
+    
+<section id="productos">
+    <br>
+    <h2 class="titulo-productos">Conozca a Nuestros Profesores</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card_custom_profesores">
+                        <img src="./ASSETS/img/profesor-1.jpg" alt="">
+                        <h3 class="card_custom_title">Laura Ingals</h3>
+                        <div class="card_custom_body">
+                            <p>Maestra Nivel 3 de Reiki Usui, Reiki Arcangélico, Reiki Saiyayin Nivel 4, Registros Akashicos, Terapia con Cristales y Tambores Ancestrales</p>
+                            <button type="visit_link">Visita sus cursos aquí</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card_custom_profesores">
+                        <img src="./ASSETS/img/profesor-4.jpg" alt="">
+                        <h3 class="card_custom_title">Severus Snape</h3>
+                        <div class="card_custom_body">
+                            <p>Maestro Nivel Charizard de Yoga, Yoga Tántrico, Maestro de Herbología, Gemología y Defensa contra las Artes Oscuras.</p>
+                            <button type="visit_link">Visita sus cursos aquí</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card_custom_profesores">
+                        <img src="./ASSETS/img/Profesor-2.jpg" alt="">
+                            <h3 class="card_custom_title">Minerva MacGonagall</h3>
+                        <div class="card_custom_body">
+                        <p>Maestra Registros Akashicos, Feng Shui, Alineación de Chakras, Mindfulness, Acupuntura, Transformaciones y Estudios Muggles.</p>
+                        <button type="visit_link">Visita sus cursos aquí</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<br>
+
+<footer id="menu" class="container-footer">
+
+    <div class="secciones-footer">
+    <div class="redes-sociales">
+    <h5>Síguenos</h5>
+    <li><a href="https://www.instagram.com/jime70/"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://www.facebook.com/jimenaeb"><i class="fa-brands fa-facebook"></a></i></li>
+    <li><a href="https://x.com/JimenaEspinoz12"><i class="fa-brands fa-x-twitter"></a></i></li>
+</div>
+
+    <div>
+        <h4>Servicios</h4>
+            <li>Terapias</li>
+            <li>Retiros espirituales</li>
+            <li>Maestrías</li>
+        
+    </div>
+
+    <div>
+        <h4>Legales</h4>
+            <li>Privacidad</li>
+            <li>Términos</li>
+            <li>Convenios</li>
+    </div>
+
+    <div>
+        <h4>Mailing</h4>
+        <li>Newsletter</li>
+        <li>Blog</li>
+        <li>Trabaja con Nosotros</li>
+    </div>
+</div>
+
+<div>
+    <h6>2024. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos.</h6>
+</div>
+</footer>
+
+</body>
+</html>

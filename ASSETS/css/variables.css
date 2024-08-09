@@ -1,0 +1,29 @@
+/*Colores*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    /*paleta de colores*/
+    --primary-color: #1B512D;
+
+    --secondary-color200: #6a994e;
+    --secondary-color500: #2b9348;
+    --secondary-color700: #206b4c; 
+
+    --terciary-color: #abec86;
+    --treciary-color200: #d9ee21;
+
+    --card-color200: #a3b18a;
+
+    --neutral-color-light: #e5e5e5;
+    --neutral-color-dark: #443f3f;
+
+    --font-title: Edu+AU+VIC+WA+NT+Hand, sans-serif;
+    --font-body: Nunito, sans-serif;
+
+    --title-weight: bold;
+    
+}
+
+

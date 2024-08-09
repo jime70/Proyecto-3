@@ -1,0 +1,9 @@
+body {
+    background-color: linear-gradient(to bottom #b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,0);
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box; /*me formatea el documento*/
+}
